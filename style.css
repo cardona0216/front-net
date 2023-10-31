@@ -1,0 +1,87 @@
+.clientes{
+    text-align: center;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    background-color: #3d94f6;
+    border-radius: 6px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+    background-color: #1e62d0;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.btndelete {
+    box-shadow: inset 0px 1px 0px 0px #fa9696;
+    background: linear-gradient(to bottom, #f53d3d 5%, #cf1f1f 100%);
+    background-color: #f53d3d;
+    border-radius: 6px;
+    border: 1px solid #eb3434;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #cc1616;
+}
+
+.btndelete:hover {
+    background: linear-gradient(to bottom, #cf1f1f 5%, #f53d3d 100%);
+    background-color: #cf1f1f;
+}
+
+.btndelete:active {
+    position: relative;
+    top: 1px;
+}
+
